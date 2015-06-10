@@ -1,5 +1,5 @@
-﻿已經開始建置於 2015/6/5 上午 10:19:04。
-     1>節點 2 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\UDT\udt.sdk.4.11\udt4-appserver\win\test.vcxproj"。
+﻿已經開始建置於 2015/6/9 上午 09:42:03。
+     1>節點 3 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\UDT\udt.sdk.4.11\udt4-appserver\win\test.vcxproj"。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (../app\) contains files shared from another project (appclient.vcxproj, appserver.vcxproj, recvfile.vcxproj, sendfile.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I../src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../app\\" /Fd"../app\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\app\test.cpp
@@ -17,10 +17,9 @@
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 請參閱 'sprintf' 的宣告
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../app\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:../src kernel32.lib user32.lib ws2_32.lib udt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../app\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../app\test.lib" /MACHINE:X86 /SAFESEH ../app\test.obj
-     1>test.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
-         test.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\UDT\udt.sdk.4.11\udt4-appserver\win\../app\test.exe
-     1>專案 "C:\Users\9200\Desktop\WORK\P2P\UDT\udt.sdk.4.11\udt4-appserver\win\test.vcxproj" (Build 目標) 建置完成。
+     1>LINK : fatal error LNK1104: 無法開啟檔案 'udt.lib'
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\UDT\udt.sdk.4.11\udt4-appserver\win\test.vcxproj" (Rebuild 目標) 建置完成 -- 失敗。
 
-建置成功。
+建置失敗。
 
-經過時間 00:00:01.69
+經過時間 00:00:01.89
